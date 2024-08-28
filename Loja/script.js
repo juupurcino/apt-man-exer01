@@ -37,6 +37,16 @@ document.addEventListener("DOMContentLoaded", function () {
         const cardText = document.createElement("p");
         cardText.className = "card-text";
         cardText.textContent = "Preço: $" + produto.preco.toFixed(2);
+        
+        const cardStatus = document.createElement("div");
+        cardStatus.textContent = "⨷"
+
+
+        if(produto.status == true){
+          cardStatus.style.backgroundColor = "red";
+        }else {
+          cardStatus.style.backgroundColor = "green";
+        }
 
         const btnAdicionarAoCarrinho = document.createElement("a");
         btnAdicionarAoCarrinho.href = "#";

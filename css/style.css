@@ -4,3 +4,15 @@
     font-style: normal;
 
 }
+
+.card-status-true {
+
+    background-color: red;
+
+}
+
+.card-status-false {
+
+    background-color: green;
+
+}
