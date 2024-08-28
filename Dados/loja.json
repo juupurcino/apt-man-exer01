@@ -1,26 +1,31 @@
 [
   {
     "id": 1,
+    "nome_produto" : "Aloha",
     "descricao": "Produto 1",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3cExnsB3qat_a-YqS4zThCXsiR4TWk2f4_-Do7MXhw&s",
+    "status": true,
+    "imagem": "/img/produto1.jpg",
+    "quantidade" : 12,
     "preco": 10.0
   },
+
   {
     "id": 2,
+    "nome_produto" : "Aura",
     "descricao": "Produto 2",
-    "imagem": "https://storage.alboom.ninja/sites/7474/albuns/343827/fotografia-de-produtos-campinas-fotografo-publicidade-aloha-life-11.jpg?t=1541510096",
+    "status": false,
+    "imagem": "/img/produto2.jpg",
+    "quantidade" : 23,
     "preco": 20.0
   },
+  
   {
     "id": 3,
+    "nome_produto" : "Creme",
     "descricao": "Produto 3",
-    "imagem": "https://skinquer.com.br/cdn/shop/articles/blogordem.jpg?v=1687270129",
-    "preco": 30.0
-  },
-  {
-    "id": 4,
-    "descricao": "Produto 4",
-    "imagem": "https://skinquer.com.br/cdn/shop/articles/blogordem.jpg?v=1687270129",
+    "status": true,
+    "imagem": "/img/produto3.jpg",
+    "quantidade" : 8,
     "preco": 30.0
   }
 ]
