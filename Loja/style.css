@@ -57,3 +57,13 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+.btn{
+
+  background-color: #008B8B;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 3%;
+
+}
