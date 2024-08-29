@@ -47,10 +47,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const btnAdicionarAoCarrinho = document.createElement("a");
-        btnAdicionarAoCarrinho.href = "#";
+        btnAdicionarAoCarrinho.href = "javascript:alert('Produto Adicionado ao carrinho com sucesso!')";
         btnAdicionarAoCarrinho.className = "btn";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
         btnAdicionarAoCarrinho.setAttribute("data-indice", index);
+
 
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
