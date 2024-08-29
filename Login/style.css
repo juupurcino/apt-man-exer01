@@ -38,3 +38,7 @@ input {
   padding: 5px;
   border: 2px solid #909090;
 }
+
+button{
+  cursor: pointer;
+}
