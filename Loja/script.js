@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const btnAdicionarAoCarrinho = document.createElement("a");
-        btnAdicionarAoCarrinho.href = "javascript:alert('Produto Adicionado ao carrinho com sucesso!')";
+        btnAdicionarAoCarrinho.href = "#";
         btnAdicionarAoCarrinho.className = "btn";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
         btnAdicionarAoCarrinho.setAttribute("data-indice", index);
@@ -67,13 +67,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   $("#produtos-container").on(
     "click",
-    ".btn-adicionar-ao-carrinho",
+    ".btn",
     function () {
       const indexDoProduto = $(this).data("indice");
       const produtoSelecionado = produtos[indexDoProduto];
       let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
       carrinho.push(produtoSelecionado);
       localStorage.setItem("carrinho", JSON.stringify(carrinho));
+      alert('Produto Adicionado ao carrinho com sucesso!');
     }
   );
 });
